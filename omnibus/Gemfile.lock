@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: 6a56be11bfbf871147b00d32d3b1368800e68107
+  revision: 89a0ed02237d9f9d1272ce51411a9afe188c3f9e
+  branch: tduffield/readdress-stunnel
   specs:
     omnibus-software (4.0.0)
       chef-sugar (>= 3.4.0)
@@ -30,13 +31,13 @@ GEM
       public_suffix (~> 2.0, >= 2.0.2)
     artifactory (2.8.1)
     awesome_print (1.7.0)
-    aws-sdk (2.8.10)
-      aws-sdk-resources (= 2.8.10)
-    aws-sdk-core (2.8.10)
+    aws-sdk (2.8.11)
+      aws-sdk-resources (= 2.8.11)
+    aws-sdk-core (2.8.11)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.8.10)
-      aws-sdk-core (= 2.8.10)
+    aws-sdk-resources (2.8.11)
+      aws-sdk-core (= 2.8.11)
     aws-sigv4 (1.0.0)
     berkshelf (5.6.4)
       addressable (~> 2.3, >= 2.3.4)
