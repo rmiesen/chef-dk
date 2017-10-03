@@ -31,3 +31,8 @@ cookbooks to supermarkets.
 The cookbook generator now adds a LICENSE file when creating a new
 cookbook.
 
+## Rename `smoke` tests to `integration` tests.
+
+The cookbook, recipe, and app generators now name the test directory
+`integration` instead of `smoke`.
+
